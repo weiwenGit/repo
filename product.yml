@@ -1,6 +1,4 @@
 spring:
-  application:
-    name: product
   datasource:
     password: 123456
     username: root
@@ -12,9 +10,5 @@ spring:
     show-sql: true
     hibernate:
       ddl-auto: update
-eureka:
-  client:
-    service-url:
-      defaultZone: http://localhost:8084/eureka/
 server:
   port: 8060
