@@ -1,20 +1,15 @@
-spring:
-  application:
-    name: product
-  datasource:
-    password: lyy123456
-    username: root
-    url: jdbc:mysql://111.231.104.76:3306/shop
-    driver-class-name: com.mysql.jdbc.Driver
-    hikari:
-      connection-test-query: select * from product_info
-  jpa:
-    show-sql: true
-    hibernate:
-      ddl-auto: update
+env: dev
 eureka:
   client:
     service-url:
-      defaultZone: http://localhost:8084/eureka/
+      defaultZone: http://localhost:8084/eureka
+spring:
+  application:
+    name: PRODUCT
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://111.231.104.76:3306/shop
+    username: root
+    password: lyy123456
 server:
-  port: 8060
+  port: 8001
