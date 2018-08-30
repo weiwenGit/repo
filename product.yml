@@ -2,8 +2,8 @@ spring:
   application:
     name: product
   datasource:
-    password: 111111
-    username: 111111
+    password: 123456
+    username: lyy12346
     url: jdbc:mysql://111.231.104.76:3306/shop
     driver-class-name: com.mysql.jdbc.Driver
     hikari:
