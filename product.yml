@@ -1,6 +1,8 @@
 spring:
+  application:
+    name: product
   datasource:
-    password: 123456
+    password: lyy123456
     username: root
     url: jdbc:mysql://111.231.104.76:3306/shop
     driver-class-name: com.mysql.jdbc.Driver
@@ -10,5 +12,9 @@ spring:
     show-sql: true
     hibernate:
       ddl-auto: update
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8084/eureka/
 server:
   port: 8060
