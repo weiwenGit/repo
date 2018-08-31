@@ -13,4 +13,4 @@ spring:
     password: lyy123456
 server:
   port: 8001
-boy: sadsdsa
+boy: 123456
